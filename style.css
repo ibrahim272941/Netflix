@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-image: url(background_image.jpg);
+}
+
+#container {
+    max-width: 1240px;
+    
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+#title {
+
+    font-family: "Sigmar One";
+    font-size: 3.1rem;
+    letter-spacing: 0.05rem;
+}
+
+span {
+    color: red;
+    text-decoration: white;
+    text-decoration: line-through white;
+}
+
+#description {
+    font-family: "Sorts Mill Goudy";
+
+    font-size: 1.4rem;
+}
+
+#header {
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
+
+#survey-form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#survey-form {
+    max-width: 400px;
+    margin: auto;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+#name,
+#email,
+#age,
+#content,
+#comment {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.input-box {
+    margin-top: 20px;
+}
+
+#send {
+    background-color: red;
+    
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    width: 160px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+}
+
+#send:hover {
+    transition: 1s;
+    background-color: white;
+    color: red;
+}
+.form-submit{
+    width: 160px;
+    margin: auto;
+    margin-top: 15px;
+}
